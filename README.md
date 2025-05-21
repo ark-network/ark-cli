@@ -114,10 +114,8 @@ export ARK_WALLET_DATADIR=path/to/custom
 ark init --network testnet --password <password> --server-url <server_url>
 ```
 
-:::info
-Default data directories:
-- POSIX (Linux/BSD): `~/.Ark-cli`
-- Mac OS: `$HOME/Library/Application Support/Ark-cli`
-- Windows: `%LOCALAPPDATA%\Ark-cli`
-- Plan 9: `$home/Ark-cli`
-:::
+*NOTE: Default data directories:*
+- *POSIX (Linux/BSD): `~/.Ark-cli`*
+- *Mac OS: `$HOME/Library/Application Support/Ark-cli`*
+- *Windows: `%LOCALAPPDATA%\Ark-cli`*
+- *Plan 9: `$home/Ark-cli`*
