@@ -3,8 +3,8 @@ module github.com/ark-network/ark-cli
 go 1.23.1
 
 require (
-	github.com/ark-network/ark/common v0.0.0-20250513154724-709a730c1943
-	github.com/ark-network/ark/pkg/client-sdk v0.0.0-20250513154724-709a730c1943
+	github.com/ark-network/ark/common v0.0.0-20250522190204-810c411b05b8
+	github.com/ark-network/ark/pkg/client-sdk v0.0.0-20250522190204-810c411b05b8
 	github.com/btcsuite/btcd/btcutil/psbt v1.1.9
 	github.com/urfave/cli/v2 v2.27.4
 	golang.org/x/term v0.29.0
@@ -14,7 +14,7 @@ require (
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e // indirect
 	github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec // indirect
 	github.com/aead/siphash v1.0.1 // indirect
-	github.com/ark-network/ark/api-spec v0.0.0-20250513154724-709a730c1943 // indirect
+	github.com/ark-network/ark/api-spec v0.0.0-20250522190204-810c411b05b8 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/btcsuite/btcd v0.24.3-0.20240921052913-67b8efd3ba53 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.4 // indirect

@@ -97,6 +97,19 @@ ark redeem --force --password <password>
 
 *NOTE: The `--force` flag ignores `--address` and `--amount` and redeems all funds.*
 
+Every vtxo unrolled onchain has a locktime that must expire before being able to move those funds to your bitcoin wallet.  
+You can know when your onchain funds reach maturity for the claim with:
+
+```bash
+ark balance
+```
+
+Once the funds are mature they can be claimed:
+
+```bash
+ark redeem --complete --address <your_btc_wallet_address>
+```
+
 ### Help
 
 For a list of all available commands:
@@ -111,7 +124,7 @@ To run a second CLI instance, use a different data directory:
 
 ```bash
 export ARK_WALLET_DATADIR=path/to/custom
-ark init --network testnet --password <password> --server-url <server_url>
+ark init --password <password> --server-url <server_url>
 ```
 
 *NOTE: Default data directories:*
